@@ -18,7 +18,7 @@ while ($item = mysqli_fetch_object($r)) {
 	echo "<ul>";
 	echo "<li>". $dec["Id"]." </li>";
 	echo "<li>". $dec["Username"] ."</li>";
-	echo "<li>". $dec["Name"] ."</li>";
+	echo "<li>". $dec["Password"] ."</li>";
 	echo "</ul>";
 	echo "</ul>";
 }
